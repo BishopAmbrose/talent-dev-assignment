@@ -1,0 +1,108 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+font-size: 62.5%;
+}
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background-color: #344a73;
+    color: #a6a1a1;
+    
+}
+
+.container-box {
+    position: absolute;
+    background-color: #344a73;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    width: 43rem;
+    min-height: 30rem;
+    
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+.subheading {
+    color: rgb(70, 70, 70);
+    margin-bottom: 2.5rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    margin-top: 2px;
+    outline: 1px solid #a6a1a1;
+    border: none;
+    border-radius: 2px;
+    
+
+}
+
+.input-container {
+    margin-bottom: 1.5rem;
+}
+
+ #submit {
+    margin-top: 3rem;
+    padding: 1.5rem 2rem;
+    background-color: rgb(1, 249, 1);
+    color: white;
+    font-size: 18px;
+    font-weight:600;
+    cursor: pointer;
+    transition: background 0.15s;
+
+}
+
+#submit:hover {
+    background: linear-gradient(20deg, red, #344a73, red);
+}
+#submit:active {
+    background: rgb(47, 47, 222);
+    color: red;
+}
+
+p {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.link {
+    margin-left: 1rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    transition: ;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+/* Basic Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1 rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #344a73;
+  color: #a6a1a1;
+
+  
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+ margin-top: 5rem;
+}
+
+.container {
+  width: 40rem;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  min-height: 30rem;
+  padding: 2rem;
+  
+}
+
+.heading {
+  color: #1f1e1e;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  margin-top: 2rem;
+  /* background: yellowgreen; */
+}
+
+input {
+  /* margin-top: 2rem; */
+  display: block;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  outline: 0.2px solid #a6a1a1;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.input-container {
+  margin-bottom: 2rem;
+}
+
+.input-container--last {
+  margin-bottom: 3rem;
+}
+
+#submit {
+  background: #4ac1a3;
+  border-radius: 0;
+  outline: 0;
+  padding: 1.5rem 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+#submit:hover {
+  background: linear-gradient(to right, #4ac1a3, #344a73, #4ac1a3);
+}
+
+.terms {
+  text-align: center;
+  
+
+}
+
+.terms a, .link a {
+  text-decoration: none;
+}
+
+.terms a:hover,
+.link a:hover {
+    color: red;
+}
+
+.terms a:hover {
+    color: red;
+}
+
+.login-link {
+   margin-top: 1rem;
+    }
+
+.link a {
+    margin-left: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+

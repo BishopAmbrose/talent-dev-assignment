@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quanta T3 - CSS</title>
+    <link rel="stylesheet" href="kehinde.css" />
+  </head>
+  <body>
+    <!-- BEM
+    1. Every element must have class
+    -->
+   
+    <div class="wrapper">
+
+      <div class="container">
+
+        <h1 class="heading">Sign Up</h1>
+        <p class="subheading">It's free and only takes a minute</p>
+        
+          <div class="input-container">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" required />
+          </div>
+  
+          <div class="input-container">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" required />
+          </div>
+  
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+  
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+  
+          <div class="input-container input-container--last">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" required />
+          </div>
+  
+          <div class="input-container">
+            <input type="submit" value="Sign Up" id="submit" required />
+          </div>
+    
+  
+        <p class="terms">
+          By Clicking the Sign Up button, you agree to our
+          <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+        </p>
+    </div>
+  
+      <div class="login-link">
+          <p>Already have an account?
+              <span class="link"><a href="#">login Here</a></span>
+          </p>
+      </div>
+
+    </div>
+   
+   
+  </body>
+</html>
